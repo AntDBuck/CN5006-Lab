@@ -1,0 +1,7 @@
+db.people.aggregate([
+{$match:{Gender:'Female'}},
+{$group:{_id:'$Age',
+AvgSalary:{$avg:'$Salary'},
+MinSalary:{$min:'$Salary'},
+MaxSalary:{$max:'$Salary'}}},
+{$sort:{_id:1}}])

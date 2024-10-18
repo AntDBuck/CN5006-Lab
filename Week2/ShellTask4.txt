@@ -1,0 +1,3 @@
+db.people.aggregate([
+{$group:{_id:{Gender:'$Gender','Marital Status':'$Marital Status'},
+Count:{$sum:1}}}])

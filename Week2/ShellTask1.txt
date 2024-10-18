@@ -1,0 +1,10 @@
+db.people.aggregate([
+{$match:{Education:'Master'}},
+{$group:{_id:'$Marital Status',
+AvgAge:{$avg:'$Age'},
+MinAge:{$min:'$Age'},
+MaxAge:{$max:'$Age'},
+AvgSalary:{$avg:'$Salary'},
+MinSalary:{$min:'$Salary'},
+MaxSalary:{$max:'$Salary'}
+}}])
