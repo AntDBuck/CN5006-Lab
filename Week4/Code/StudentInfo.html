@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UFT-8"/>
+        <title>Student Enrollment Form</title>
+    </head>
+    <body bgcolor="beige">
+        <form action="/submit-data" method="post">
+            <p><strong>Student Details</strong></p>
+
+                First Name: <input name="firstName" type="text"/> <br><br>
+                Last Name: <input name="lastName" type="text"/> <br><br>
+                Email: &emsp;&emsp; <input name="email" type="email" id="emailId"/> <br><br>
+                Age: &emsp;&emsp;&ensp; <input name="myAge" type="text"/> <br>
+
+            <p>Please select your gender:</p>
+
+                <input name="gender" type="radio" id="male" value="male">
+                <label for="male">Male</label> <br>
+                <input name="gender" type="radio" id="female" value="female">
+                <label for="female">Female</label> <br>
+                <input name="gender" type="radio" id="other" value="other">
+                <label for="other">Other</label> <br>
+
+            <p>Qualifications:</p>
+
+                <input name="qualification" type="checkbox" value="gcse">GCSE <br>
+                <input name="qualification" type="checkbox" value="a-level">A-level <br>
+                <input name="qualification" type="checkbox" value="Higher National Certificate">Higher National Certificate <br>
+                <input name="qualification" type="checkbox" value="hnd">Foundation Degree/HND/DipHE/Level 5 <br>
+                <input name="qualification" type="checkbox" value="b.sc">Bachelor Degree/Graduate Diploma or Certificate/ Level 6 <br>
+                <input name="qualification" type="checkbox" value="masterDegree">Master Degree/PGCE/Level 7 <br>
+                <input name="qualification" type="checkbox" value="phd">PhD/Level 8 <br><br>
+
+                <input type="submit">
+        </form>
+    </body>
+</html>
