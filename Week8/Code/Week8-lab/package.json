@@ -1,0 +1,15 @@
+{
+  "name": "week8-lab",
+  "version": "1.0.0",
+  "description": "MongoDB CRUD using VSCode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antony Buck",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1"
+  }
+}
