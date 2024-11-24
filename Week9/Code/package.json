@@ -1,0 +1,11 @@
+{
+  "name": "week9-lab",
+  "version": "1.0.0",
+  "description": "Class component and state management implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antony Buck",
+  "license": "ISC"
+}
