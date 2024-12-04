@@ -1,2 +1,5 @@
 # CN5006-Lab
-This repository demonstrates the weekly lab work I have been assigned and displays it in this format: source code, output, and weekly reflections.
+This repository demonstrates the weekly lab work I have completed. The format is as follows:
+- Week n ---> code.
+- Portfolio of each week.
+- Readme.
